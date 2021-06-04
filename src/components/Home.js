@@ -1,7 +1,12 @@
 import React from "react";
+import Section from "./Section";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Section />
+    </div>
+  );
 }
 
 export default Home;
