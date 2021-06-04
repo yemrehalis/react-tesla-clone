@@ -83,6 +83,9 @@ const MenuGroup = styled.div`
     padding: 0 10px;
     cursor: pointer;
   }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const RightMenu = styled.div`
